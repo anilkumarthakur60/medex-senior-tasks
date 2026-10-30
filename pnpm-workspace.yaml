@@ -1,0 +1,8 @@
+packages:
+  - task_one
+  - task_two
+  - task_three
+
+ignoredBuiltDependencies:
+  - sharp
+  - unrs-resolver

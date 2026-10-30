@@ -1,0 +1,17 @@
+{
+  "name": "medex-senior-tasks",
+  "private": true,
+  "packageManager": "pnpm@10.33.0",
+  "engines": {
+    "node": ">=20.9"
+  },
+  "scripts": {
+    "dev": "pnpm -r --parallel dev",
+    "dev:one": "pnpm --filter task-one dev",
+    "dev:two": "pnpm --filter task-two dev",
+    "dev:three": "pnpm --filter task-three dev",
+    "build": "pnpm -r build",
+    "lint": "pnpm -r lint",
+    "test": "pnpm --filter task-one exec vitest run && pnpm --filter task-two exec vitest run && pnpm --filter task-three exec vitest run"
+  }
+}
