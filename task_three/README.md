@@ -2,6 +2,8 @@
 
 A robust, international medical appointment booking engine with cross-timezone synchronization, dynamic slot generation with buffers, group booking coordination, and conflict resolution.
 
+🌐 **Live Deployed Demo:** [https://medex-task-three.vercel.app](https://medex-task-three.vercel.app)
+
 ---
 
 ## 1. Quick Start

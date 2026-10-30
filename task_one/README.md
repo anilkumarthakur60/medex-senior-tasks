@@ -2,6 +2,8 @@
 
 A high-performance healthcare marketplace explorer that enables patients across Thailand, Nepal, and India to search, compare, and filter 3,200+ medical services and packages grouped by provider.
 
+🌐 **Live Deployed Demo:** [https://medex-task-one.vercel.app](https://medex-task-one.vercel.app)
+
 ---
 
 ## 1. Quick Start

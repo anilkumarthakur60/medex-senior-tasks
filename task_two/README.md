@@ -2,6 +2,8 @@
 
 A resilient multi-provider cart and split checkout experience that supports independent booking flows, multi-currency accounting, optimistic updates, guest cart merging, and robust partial-failure handling.
 
+🌐 **Live Deployed Demo:** [https://medex-task-two.vercel.app](https://medex-task-two.vercel.app)
+
 ---
 
 ## 1. Quick Start

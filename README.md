@@ -3,8 +3,11 @@
 Welcome to the MedEx Senior Frontend Engineer assessment submission. This monorepo contains complete, production-ready implementations for all three tasks:
 
 1. **Task 1: Service Explorer with Live Faceted Filters** (`task_one`, port `3001`)
+   - 🌐 **Live Demo:** [https://medex-task-one.vercel.app](https://medex-task-one.vercel.app)
 2. **Task 2: Multi-Provider Cart & Split Checkout** (`task_two`, port `3002`)
+   - 🌐 **Live Demo:** [https://medex-task-two.vercel.app](https://medex-task-two.vercel.app)
 3. **Task 3: Appointment Booking Across Time Zones** (`task_three`, port `3003`)
+   - 🌐 **Live Demo:** [https://medex-task-three.vercel.app](https://medex-task-three.vercel.app)
 
 ---
 
