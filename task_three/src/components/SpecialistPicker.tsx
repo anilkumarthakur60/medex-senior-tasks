@@ -46,7 +46,7 @@ export function SpecialistPicker({
               </div>
 
               <div className="text-[11px] text-slate-500 mt-2 space-y-0.5 border-t border-slate-100 pt-1.5 font-mono">
-                <div>Hours: {spec.consultation.startTime} – {spec.consultation.endTime}</div>
+                <div>Hours: {spec.consultation.startTime} to {spec.consultation.endTime}</div>
                 <div>
                   Slot: {spec.consultation.durationInMinutes}m + {spec.consultation.bufferInMinutes}m buffer
                 </div>

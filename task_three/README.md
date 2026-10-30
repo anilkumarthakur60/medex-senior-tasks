@@ -54,11 +54,11 @@ Provider timezone data is entered manually and contains inconsistent notations. 
 ### Slot Generation & Buffer Intervals
 * **Rule:** A specialist's slots start at `consultation.startTime` and repeat every `durationInMinutes + bufferInMinutes`.
 * **Important Distinction:** The buffer is dead time (doctor notes, room sanitization, patient transition); it is **not** part of the appointment itself.
-* **Example:** 10:00–16:00 with 30m duration + 10m buffer:
-  * Slot 1: 10:00 to 10:30 (buffer 10:30–10:40)
-  * Slot 2: 10:40 to 11:10 (buffer 11:10–11:20)
+* **Example:** 10:00 to 16:00 with 30m duration + 10m buffer:
+  * Slot 1: 10:00 to 10:30 (buffer 10:30 to 10:40)
+  * Slot 2: 10:40 to 11:10 (buffer 11:10 to 11:20)
   * ...
-  * Slot 9: 15:20 to 15:50 (buffer 15:50–16:00)
+  * Slot 9: 15:20 to 15:50 (buffer 15:50 to 16:00)
   * *Next slot would start at 16:00 and end at 16:30, which exceeds 16:00, so it is strictly excluded.*
 * **Operating Hours Overlap:** A slot is offered only if it lies entirely within the provider's opening hours that day. If a specialist advertises hours outside facility hours (e.g. Saturday closing at 13:00 while consultation ends at 16:00), only overlapping slots are bookable, accompanied by an explanatory note.
 

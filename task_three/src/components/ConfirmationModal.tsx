@@ -87,7 +87,7 @@ export function ConfirmationModal({
             <span className="text-teal-800 font-semibold">1. Hospital Time:</span>
             <div className="text-right font-mono">
               <div className="font-bold text-slate-900">
-                {dual.providerTime} – {confirmation.endTime}
+                {dual.providerTime} to {confirmation.endTime}
               </div>
               <div className="text-[10px] text-slate-500">{dual.providerDate}</div>
             </div>

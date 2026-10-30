@@ -67,7 +67,7 @@ export function generateSpecialistSlots(
     consultStartMinutes < providerOpenMinutes ||
     consultEndMinutes > providerCloseMinutes
   ) {
-    scheduleOverlapNote = `${specialist.name}'s advertised hours (${specialist.consultation.startTime}–${specialist.consultation.endTime}) are limited by ${provider.name}'s opening hours on ${dayName}s (${daySchedule.startTime}–${daySchedule.endTime}).`;
+    scheduleOverlapNote = `${specialist.name}'s advertised hours (${specialist.consultation.startTime} to ${specialist.consultation.endTime}) are limited by ${provider.name}'s opening hours on ${dayName}s (${daySchedule.startTime} to ${daySchedule.endTime}).`;
   }
 
   // Current clock at provider to check if past
